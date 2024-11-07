@@ -1,7 +1,16 @@
-ALGORITHM nember
+ALGORITHM worde
 VAR
-    a:INTEGER;0
-BEGIN
-    insertionSort(arr, n)
-    Loop from i = 1 to n-1
+    length = 0
+    words = 0
+    vowels = 0
+    BEGIN
+    FOR i FROM char TO sentence STEP   DO 
+        length += 1
+        if char ==' ':
+            words += 1
+        if char.lower() in 'aeiou':
+            vowels += 1
+        END_FOR
+    Write (length, words, vowel)
+    
 END
