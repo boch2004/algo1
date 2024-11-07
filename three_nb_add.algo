@@ -1,0 +1,7 @@
+ALGORITHM nember
+VAR
+    a:INTEGER;0
+BEGIN
+    insertionSort(arr, n)
+    Loop from i = 1 to n-1
+END
